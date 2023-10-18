@@ -1,4 +1,21 @@
 import {Link} from "react-router-dom";
+import about from '../assets/img/about.jpg'
+import preview from '../assets/img/Untitled__3_-removebg-preview.png'
+import read from '../assets/img/Untitled__4_-removebg-preview.png'
+import real from '../assets/img/Untitled__1_-removebg-preview.png'
+import sert from '../assets/img/Untitled__2_-removebg-preview.png'
+import work from '../assets/img/Untitled_6-removebg-preview.png'
+import inputs from '../assets/img/Untitled_5-removebg-preview.png'
+import komp from '../assets/img/iStock-626288564 (1).jpg'
+import web from '../assets/img/web-programming-languages-_1_.jpg'
+import arch from '../assets/img/CTA-BIM-1-1000x600.jpg'
+import smm from '../assets/img/How-does-the-SMM-panel-work.jpg'
+import tri from '../assets/img/3Ds-Max-Extrude.jpg'
+import graphik from '../assets/img/Banner-5-Rising-Graphic-Designers-and-What-Sets-Them-Apart-1-1280x720.jpg'
+import ceo from '../assets/img/photo_2023-10-16_11-03-13.jpg'
+import oybek from '../assets/img/photo_2023-10-16_11-43-43.jpg'
+import dilbek from '../assets/img/IMG_9384.jpg'
+import boja from '../assets/img/IMG_9406.jpg'
 
 export const FirstMenu = () => {
     return (
@@ -44,7 +61,7 @@ export const FirstMenu = () => {
                             </div>
                             <div className="col-lg-6">
                                 <img className="img-fluid wow zoomIn" data-wow-delay="0.5s"
-                                     src="src/assets/img/about.jpg" alt={"not"}/>
+                                     src={about} alt={"not"}/>
                             </div>
                         </div>
                     </div>
@@ -63,7 +80,7 @@ export const FirstMenu = () => {
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
                                     <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
-                                         src="src/assets/img/Untitled__3_-removebg-preview.png" alt=""/>
+                                         src={preview} alt=""/>
                                     <h5 className="mb-3">O’zingizga mos kursni tanlash</h5>
                                     <p>Biz yurtimizdagi eng rivojlangan sohalar bo'yicha
                                         kurslarni taqdim etamiz va tanlash imkonini beramiz.</p>
@@ -73,7 +90,7 @@ export const FirstMenu = () => {
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
                                     <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
-                                         src="src/assets/img/Untitled__4_-removebg-preview.png" alt=""/>
+                                         src={read} alt=""/>
                                     <h5 className="mb-3">O'quv jarayoni</h5>
                                     <p>O'quv jarayoni video darslar, amaliy mashqlar, mentor bilan ishlash imkoniyati
                                         orqali olib boriladi.</p>
@@ -84,7 +101,7 @@ export const FirstMenu = () => {
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
                                     <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
-                                         src="src/assets/img/Untitled__1_-removebg-preview.png" alt=""/>
+                                         src={real} alt=""/>
                                     <h5 className="mb-3">Real loyihalarni amalga oshirish</h5>
                                     <p>Har bir kursdagi mavzulashtirilgan video darslarda real loyihalardan qismlar
                                         orqali tushuntirib beriladi.</p>
@@ -95,7 +112,7 @@ export const FirstMenu = () => {
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
                                     <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
-                                         src="src/assets/img/Untitled__2_-removebg-preview.png" alt=""/>
+                                         src={sert} alt=""/>
                                     <h5 className="mb-3">Sertifikat bilan taqdirlash</h5>
                                     <p>Kurs so'nggida talabaning o'zlashtirish ko'rsatkichlari e'tiborga olingan holda sertifikat va diplom beriladi.</p>
 
@@ -105,7 +122,7 @@ export const FirstMenu = () => {
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
                                     <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
-                                         src="src/assets/img/Untitled_6-removebg-preview.png" alt=""/>
+                                         src={work} alt=""/>
                                     <h5 className="mb-3">Ish bilan ta’minlashda amaliy ko’mak</h5>
                                     <p>Kurslarni muvaffaqiyatli tamomlagan talabalarga Universal akademiyasi tomonidan
                                         ish bilan ta’minlashda amaliy yordam ko’rsatiladi.</p>
@@ -116,7 +133,7 @@ export const FirstMenu = () => {
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
                                     <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
-                                         src="src/assets/img/Untitled_5-removebg-preview.png" alt=""/>
+                                         src={inputs} alt=""/>
                                     <h5 className="mb-3">Ishga kiring va <br/> karyerangizni boshlang</h5>
                                     <p>Biz bilan kurslarni muvaffaqiyatli tamomlang va orzu qilgan ish o'rningiz egasiga
                                         aylaning.</p>
@@ -142,7 +159,7 @@ export const FirstMenu = () => {
                             <div className="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.1s">
                                 <div className="position-relative rounded overflow-hidden">
                                     <img className="img-fluid w-100" style={{width: "383px", height: "283px"}}
-                                         src="src/assets/img/iStock-626288564 (1).jpg" alt=""/>
+                                         src={komp} alt=""/>
                                     <div className="portfolio-overlay">
                                         <div className="mt-auto">
                                             <Link to={""} style={{fontSize: "40px"}}
@@ -157,7 +174,7 @@ export const FirstMenu = () => {
                                   className="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.3s">
                                 <div className="position-relative rounded overflow-hidden">
                                     <img className="img-fluid w-100" style={{width: "383px", height: "283px"}}
-                                         src="src/assets/img/website-development-programming-landing-page_284092-566-_1_.jpg"
+                                         src={web}
                                          alt=""/>
                                     <div className="portfolio-overlay">
                                         <div className="mt-auto">
@@ -173,7 +190,7 @@ export const FirstMenu = () => {
                                   className="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.6s">
                                 <div className="position-relative rounded overflow-hidden">
                                     <img className="img-fluid w-100" style={{width: "383px", height: "283px"}}
-                                         src="src/assets/img/CTA-BIM-1-1000x600.jpg" alt=""/>
+                                         src={arch} alt=""/>
                                     <div className="portfolio-overlay">
                                         <div className="mt-auto">
                                             <Link to={""} style={{fontSize: "40px"}}
@@ -187,7 +204,7 @@ export const FirstMenu = () => {
                                   className="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.1s">
                                 <div className="position-relative rounded overflow-hidden">
                                     <img className="img-fluid w-100" style={{width: "383px", height: "283px"}}
-                                         src="src/assets/img/How-does-the-SMM-panel-work.jpg" alt=""/>
+                                         src={smm} alt=""/>
                                     <div className="portfolio-overlay">
                                         <div className="mt-auto">
                                             <Link to={""} style={{fontSize: "40px"}}
@@ -201,7 +218,7 @@ export const FirstMenu = () => {
                                   className="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.3s">
                                 <div className="position-relative rounded overflow-hidden">
                                     <img className="img-fluid w-100" style={{width: "383px", height: "283px"}}
-                                         src="src/assets/img/3Ds-Max-Extrude.jpg" alt=""/>
+                                         src={tri} alt=""/>
                                     <div className="portfolio-overlay">
                                         <div className="mt-auto">
                                             <Link to={""} style={{fontSize: "40px"}}
@@ -216,7 +233,7 @@ export const FirstMenu = () => {
                                   className="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.6s">
                                 <div className="position-relative rounded overflow-hidden">
                                     <img className="img-fluid w-100" style={{width: "383px", height: "283px"}}
-                                         src="src/assets/img/Banner-5-Rising-Graphic-Designers-and-What-Sets-Them-Apart-1-1280x720.jpg"
+                                         src={graphik}
                                          alt=""/>
                                     <div className="portfolio-overlay">
                                         <div className="mt-auto">
@@ -255,7 +272,7 @@ export const FirstMenu = () => {
                                                 className="fab fs-5 fa-instagram"/></Link>
                                         </div>
                                         <img className="img-fluid rounded " style={{height:"500px",width:"675px"}}
-                                             src="src/assets/img/photo_2023-10-16_11-03-13.jpg"
+                                             src={ceo}
                                              alt=""/>
                                     </div>
                                     <div className="px-4 py-3">
@@ -280,7 +297,7 @@ export const FirstMenu = () => {
                                                 className="fab fs-5 fa-instagram"/></Link>
                                         </div>
                                         <img  style={{height:"500px",width:"675px"}} className="img-fluid rounded w-100"
-                                             src="src/assets/img/photo_2023-10-16_11-43-43.jpg"
+                                             src={oybek}
                                              alt=""/>
                                     </div>
                                     <div className="px-4 py-3">
@@ -305,7 +322,7 @@ export const FirstMenu = () => {
                                                 className="fab fs-5 fa-instagram"/></Link>
                                         </div>
                                         <img style={{height:"500px"}} className="img-fluid rounded "
-                                             src="src/assets/img/IMG_9384.jpg"
+                                             src={dilbek}
                                              alt=""/>
                                     </div>
                                     <div className="px-4 py-3">
@@ -329,7 +346,7 @@ export const FirstMenu = () => {
                                                 className="fab fs-5 fa-instagram"/></a>
                                         </div>
                                         <img className="img-fluid rounded " width={"375px"}
-                                             src="src/assets/img/IMG_9406.jpg"
+                                             src={boja}
                                              alt=""/>
                                     </div>
                                     <div className="px-4 py-3">

@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import zam from '../assets/img/hero.png'
 
 export const Navbar = () => {
     return (
@@ -32,7 +33,7 @@ export const Navbar = () => {
                                    className="btn btn-outline-light justify-content-end py-sm-3 px-sm-5 rounded-pill animated slideInRight">Biz bilan bog'lanish</Link>
                             </div>
                             <div className="col-lg-6 text-center text-lg-start">
-                                <img className="img-fluid" src="src/assets/img/hero.png" alt="not"/>
+                                <img className="img-fluid" src={zam} alt="not"/>
                             </div>
                         </div>
                     </div>
