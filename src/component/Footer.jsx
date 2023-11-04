@@ -8,28 +8,19 @@ export const Footer = () => {
                     <div className="row g-5">
                         <div className="col-md-6 col-lg-3">
                             <h5 className="text-white mb-4">Bizning manzilimiz</h5>
-                            <p><i className="fa fa-map-marker-alt me-3"/> Qashaqadaryo viloyati <br/> Kitob tumani Katta yo'l ko'chasi</p>
-                            <p><i className="fa fa-phone-alt me-3"/>+998 99 999 99 99</p>
-                            <p><i className="fa fa-envelope me-3"/>info@example.com</p>
+                            <p><i className="fa fa-map-marker-alt me-3"/> Qashaqadaryo viloyati <br/> Kitob tumani Katta
+                                yo'l ko'chasi</p>
+                            <p><i className="fa fa-phone-alt me-3"/>+998 99 076 32 46</p>
+                            <p><i className="fa fa-envelope me-3"/>uteam111111@gmail.com</p>
                         </div>
                         <div className="col-md-6 col-lg-3">
                             <h5 className="text-white mb-4">Ommabop havola</h5>
                             <a className="btn btn-link" href="">Biz haqimiza</a>
-                            <Link to={"http://localhost:5173/contact"} className="btn btn-link" href="">Biz bilan bog'lanish</Link>
-                            <div className="d-flex pt-2">
-                                <a className="btn btn-outline-light btn-social" href=""><i
-                                    className="fab fa-twitter"/></a>
-                                <a className="btn btn-outline-light btn-social" href=""><i
-                                    className="fab fa-facebook-f"/></a>
-                                <a className="btn btn-outline-light btn-social" href=""><i
-                                    className="fab fa-youtube"/></a>
-                                <a className="btn btn-outline-light btn-social" href=""><i
-                                    className="fab fa-instagram"/></a>
-                            </div>
+                            <Link to={"http://localhost:5173/contact"} className="btn btn-link" href="">Biz bilan
+                                bog'lanish</Link>
                         </div>
                     </div>
                 </div>
-
                 <div className="container px-lg-5">
                     <div className="copyright">
                         <div className="row">

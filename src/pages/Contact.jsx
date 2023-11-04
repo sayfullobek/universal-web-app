@@ -1,12 +1,15 @@
 import {Link} from "react-router-dom";
 
+import uLogo from '../assets/img/UniversalAcademy.png'
+import contact from '../assets/img/contactUs.png'
+
 export const Contact = () => {
     return (
         <>
             <div className="container-xxl position-relative p-0">
                 <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                     <a href="" className="navbar-brand p-0">
-                        <h1 className="m-0"><img src="src/assets/img/UniversalAcademy.png" alt="not"/>Universal<span
+                        <h1 className="m-0"><img src={uLogo} alt="not"/>Universal<span
                             className="fs-5"/>
                         </h1>
                     </a>
@@ -18,7 +21,6 @@ export const Contact = () => {
                         <div className="navbar-nav ms-auto py-0">
                             <Link to={"http://localhost:5173/"} className="nav-item nav-link">Bosh sahifa</Link>
                             <Link to="http://localhost:5173/course" className="nav-item nav-link">Kurslar</Link>
-                            <Link to="" className="nav-item nav-link">Biz haqimizda</Link>
                             <Link to="http://localhost:5173/contact" className="nav-item nav-link active  ">Biz bilan
                                 bog'lanish</Link>
                         </div>
@@ -34,12 +36,13 @@ export const Contact = () => {
                                 <p className="text-white pb-3 animated zoomIn">Bizni ijtimoiy tarmoqlarda kuzatib boring
                                     Biz sizga eng yaxshizini tavsia etamiz Muammoga duch kelsangiz qo'llab quvvatlash
                                     jamoamizga murojat qiling </p>
-                                <Link to="http://localhost:5173/course"
-                                      className="btn btn-outline-light justify-content-end py-sm-3 px-sm-5 rounded-pill animated slideInRight">Kurslar</Link>
+                                <Link style={{width: "200px"}} to="http://localhost:5173/"
+                                      className="btn btn-outline-light justify-content-end py-sm-3 px-sm-5 rounded-pill animated slideInRight">Bosh
+                                    sahifa</Link>
                             </div>
                             <div className="col-lg-6 text-center text-lg-start">
-                                <img style={{width: "350px", marginLeft: "20px", marginTop: "-60px"}}
-                                     className="img-fluid " src="src/assets/img/contactUs.png" alt="not"/>
+                                <img style={{width: "350px", marginTop: "-0px"}}
+                                     className="img-fluid " src={contact} alt="not"/>
                             </div>
                         </div>
                     </div>
@@ -119,7 +122,8 @@ export const Contact = () => {
                         <div className="col-md-6 col-lg-3">
                             <h5 className="text-white mb-4">Ommabop havola</h5>
                             <a className="btn btn-link" href="">Biz haqimiza</a>
-                            <Link to={"http://localhost:5173/contact"} className="btn btn-link">Biz bilan bog'lanish</Link>
+                            <Link to={"http://localhost:5173/contact"} className="btn btn-link">Biz bilan
+                                bog'lanish</Link>
                         </div>
                     </div>
                 </div>
@@ -128,8 +132,7 @@ export const Contact = () => {
                     <div className="copyright">
                         <div className="row">
                             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                                &copy; <a className="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
-
+                                &copy; <a className="border-bottom" href="#">Universal academy </a>, All Right Reserved.
                                 Designed By <a className="border-bottom" href="https://htmlcodex.com">uTeam</a>
                             </div>
                         </div>

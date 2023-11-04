@@ -1,5 +1,13 @@
 import {Link} from "react-router-dom";
 import {Footer} from "../../component/Footer";
+import logo from '/src/assets/img/UniversalAcademy.png'
+import bio from '/src/assets/img/social-media-marketing-concept_263670-101-removebg-preview.png'
+import rasm1
+    from '/src/assets/img/young-photographer-team-use-camera-lighting-flash-tripod-studio-taking-photo_1150-48748-removebg-preview.png'
+import vid from '/src/assets/img/Untitled__4_-removebg-preview.png'
+import vid2 from '/src/assets/img/Untitled__1_-removebg-preview.png'
+import rasm2 from '/src/assets/img/images-removebg-preview.png'
+
 
 export const Smm = () => {
     return (
@@ -8,7 +16,7 @@ export const Smm = () => {
                 <div className="container-xxl position-relative p-0">
                     <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                         <a href="" className="navbar-brand p-0">
-                            <h1 className="m-0"><img src="src/assets/img/UniversalAcademy.png" alt="not"/>Universal<span
+                            <h1 className="m-0"><img src={logo} alt="not"/>Universal<span
                                 className="fs-5"/>
                             </h1>
                         </a>
@@ -30,7 +38,7 @@ export const Smm = () => {
                         <div className="container my-5 py-5 px-lg-5">
                             <div className="row g-5 py-5">
                                 <div className="col-lg-6 text-center text-lg-start">
-                                    <h1 style={{fontSize: "50px"}}
+                                    <h1 style={{fontSize: "40px"}}
                                         className="text-white mb-4 animated zoomIn">SMM <br/> MOBILOGRAFIA</h1>
                                     <Link to="http://localhost:5173/contact"
                                           className="btn btn-outline-light justify-content-end py-sm-3 px-sm-5 rounded-pill animated slideInRight">Biz
@@ -38,7 +46,7 @@ export const Smm = () => {
                                 </div>
                                 <div className="col-lg-6 text-center text-lg-start">
                                     <img className="" style={{width: "340px", marginTop: "-30px", marginLeft: "0px"}}
-                                         src="src/assets/img/social-media-marketing-concept_263670-101-removebg-preview.png"
+                                         src={bio}
                                          alt="not"/>
                                 </div>
                             </div>
@@ -53,7 +61,7 @@ export const Smm = () => {
                                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                                     <div className="section-title position-relative mb-4 pb-2">
                                         {/*<h6 className="position-relative text-primary ps-4">Biz haqimizda</h6>*/}
-                                        <h1 className="mt-2" style={{fontSize: "50px"}}>KURSIMIZ KIMLARGA<br/> TO’G’RI
+                                        <h1 className="mt-2" style={{fontSize: "40px"}}>KURSIMIZ KIMLARGA<br/> TO’G’RI
                                             KELADI</h1>
                                     </div>
                                     <p className="mb-4 fs-5">Social Media Marketing va Mobilografia sohasiga qiziquvhchi
@@ -73,7 +81,7 @@ export const Smm = () => {
                                 </div>
                                 <div className="col-lg-6">
                                     <img className="img-fluid wow zoomIn"
-                                         src="src/assets/img/young-photographer-team-use-camera-lighting-flash-tripod-studio-taking-photo_1150-48748-removebg-preview.png"
+                                         src={rasm1}
                                          alt={"not"}/>
                                 </div>
                             </div>
@@ -85,23 +93,24 @@ export const Smm = () => {
                             <div className="row g-5">
                                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                                     <div className="section-title position-relative mb-4 pb-2">
-                                        <h1 className="mt-2" style={{fontSize: "50px"}}>NIMALARNI
+                                        <h1 className="mt-2" style={{fontSize: "40px"}}>NIMALARNI
                                             O’RGANASIZ</h1>
                                     </div>
                                     <div className="row my-5">
                                         <div className="col-lg-6 col-md-4 wow zoomIn">
-                                            <li className={"fs-3 col-12 text-primary"}>Video montaj</li>
+                                            <p className={"fs-3 col-12 text-primary"}>Video montaj</p>
                                         </div>
                                         <div className="col-lg-4 col-md-4 wow zoomIn">
-                                            <li className={"fs-3 text-primary"}>Telegram</li>
+                                            <p className={"fs-3 text-primary"}>Telegram</p>
                                         </div>
-                                    </div>
-                                    <div className="row my-1">
                                         <div className="col-lg-6 col-md-4 wow zoomIn">
-                                            <li className={"fs-3 col-12 text-primary"}>Instagram</li>
+                                            <p className={"fs-3 col-12 text-primary"}>Instagram</p>
                                         </div>
                                         <div className="col-lg-4 col-md-4 wow zoomIn">
-                                            <li className={"fs-3 text-primary"}>SMM</li>
+                                            <p className={"fs-3 text-primary"}>SMM</p>
+                                        </div>
+                                        <div className="row my-1">
+
                                         </div>
                                     </div>
                                 </div>
@@ -121,8 +130,8 @@ export const Smm = () => {
                                 <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                                     <div
                                         className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                        <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
-                                             src="src/assets/img/Untitled__4_-removebg-preview.png" alt=""/>
+                                        <img style={{width: "150px", height: "150px", marginLeft: "50px"}}
+                                             src={vid} alt=""/>
                                         <h5 className="mb-3">Amaliy
                                             mashqlar</h5>
                                         <p>Har bir mavzuga oid amaliy mashqlar beriladi va bu mashqlarni talaba mustaqil
@@ -133,8 +142,8 @@ export const Smm = () => {
                                 <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                                     <div
                                         className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                        <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
-                                             src="src/assets/img/Untitled__1_-removebg-preview.png" alt=""/>
+                                        <img style={{width: "150px", height: "150px", marginLeft: "50px"}}
+                                             src={vid2} alt=""/>
                                         <h5 className="mb-3">Yangiliklar</h5>
                                         <p>Har kuni yangi narsalarni kashf eting <br/> Jamoamiz bilan birga ishlash</p>
 
@@ -171,7 +180,7 @@ export const Smm = () => {
                                 <div className="col-lg-3 col-md-3 col-sm-6 text-center">
                                     <div className="contact__widget">
                                         <img style={{width: '100px', marginTop: '-20px'}}
-                                             src="src/assets/img/images-removebg-preview.png"
+                                             src={rasm2}
                                              alt=""/>
                                     </div>
                                 </div>

@@ -1,4 +1,3 @@
-import {Link} from "react-router-dom";
 import about from '../assets/img/about.jpg'
 import preview from '../assets/img/Untitled__3_-removebg-preview.png'
 import read from '../assets/img/Untitled__4_-removebg-preview.png'
@@ -12,10 +11,11 @@ import arch from '../assets/img/CTA-BIM-1-1000x600.jpg'
 import smm from '../assets/img/How-does-the-SMM-panel-work.jpg'
 import tri from '../assets/img/3Ds-Max-Extrude.jpg'
 import graphik from '../assets/img/Banner-5-Rising-Graphic-Designers-and-What-Sets-Them-Apart-1-1280x720.jpg'
-import ceo from '../assets/img/photo_2023-10-16_11-03-13.jpg'
+import ceo from '../assets/img/sayfulloTuxtayev.jpg'
 import oybek from '../assets/img/photo_2023-10-16_11-43-43.jpg'
 import dilbek from '../assets/img/IMG_9384.jpg'
 import boja from '../assets/img/IMG_9406.jpg'
+import {Link} from "react-router-dom";
 
 export const FirstMenu = () => {
     return (
@@ -79,7 +79,7 @@ export const FirstMenu = () => {
                             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                    <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
+                                    <img style={{width: "150px", height: "150px", marginLeft: "50px"}}
                                          src={preview} alt=""/>
                                     <h5 className="mb-3">O’zingizga mos kursni tanlash</h5>
                                     <p>Biz yurtimizdagi eng rivojlangan sohalar bo'yicha
@@ -89,7 +89,7 @@ export const FirstMenu = () => {
                             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                    <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
+                                    <img style={{width: "150px", height: "150px", marginLeft: "50px"}}
                                          src={read} alt=""/>
                                     <h5 className="mb-3">O'quv jarayoni</h5>
                                     <p>O'quv jarayoni video darslar, amaliy mashqlar, mentor bilan ishlash imkoniyati
@@ -100,7 +100,7 @@ export const FirstMenu = () => {
                             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                    <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
+                                    <img style={{width: "150px", height: "150px", marginLeft: "50px"}}
                                          src={real} alt=""/>
                                     <h5 className="mb-3">Real loyihalarni amalga oshirish</h5>
                                     <p>Har bir kursdagi mavzulashtirilgan video darslarda real loyihalardan qismlar
@@ -111,17 +111,18 @@ export const FirstMenu = () => {
                             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                    <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
+                                    <img style={{width: "150px", height: "150px", marginLeft: "50px"}}
                                          src={sert} alt=""/>
                                     <h5 className="mb-3">Sertifikat bilan taqdirlash</h5>
-                                    <p>Kurs so'nggida talabaning o'zlashtirish ko'rsatkichlari e'tiborga olingan holda sertifikat va diplom beriladi.</p>
+                                    <p>Kurs so'nggida talabaning o'zlashtirish ko'rsatkichlari e'tiborga olingan holda
+                                        sertifikat va diplom beriladi.</p>
 
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                    <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
+                                    <img style={{width: "150px", height: "150px", marginLeft: "50px"}}
                                          src={work} alt=""/>
                                     <h5 className="mb-3">Ish bilan ta’minlashda amaliy ko’mak</h5>
                                     <p>Kurslarni muvaffaqiyatli tamomlagan talabalarga Universal akademiyasi tomonidan
@@ -132,7 +133,7 @@ export const FirstMenu = () => {
                             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                    <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
+                                    <img style={{width: "150px", height: "150px", marginLeft: "50px"}}
                                          src={inputs} alt=""/>
                                     <h5 className="mb-3">Ishga kiring va <br/> karyerangizni boshlang</h5>
                                     <p>Biz bilan kurslarni muvaffaqiyatli tamomlang va orzu qilgan ish o'rningiz egasiga
@@ -257,7 +258,7 @@ export const FirstMenu = () => {
                             <h2 className="mt-2">Jamoamiz a'zolari bilan tanishing</h2>
                         </div>
                         <div className="row g-4 ">
-                            <div  className="col-lg-4 col-md-6 wow fadeInUp mr-3"
+                            <div className="col-lg-4 col-md-6 wow fadeInUp mr-3"
                                  data-wow-delay="0.1s">
                                 <div className="team-item">
                                     <div className="d-flex">
@@ -266,12 +267,14 @@ export const FirstMenu = () => {
                                             <Link to={"https://t.me/sayfullo_dev"}
                                                   className="btn btn-square text-primary bg-white my-1"><i
                                                 className="bi bi-telegram fs-5"/></Link>
-                                            <Link to={"https://github.com/sayfullobek/"} className="btn btn-square text-primary bg-white my-1"><i
+                                            <Link to={"https://github.com/sayfullobek/"}
+                                                  className="btn btn-square text-primary bg-white my-1"><i
                                                 className="bi bi-github fs-5"/></Link>
-                                            <Link className="btn btn-square text-primary bg-white my-1" to={"https://www.instagram.com/sayfullo_dev/"}><i
+                                            <Link className="btn btn-square text-primary bg-white my-1"
+                                                  to={"https://www.instagram.com/sayfullo_dev/"}><i
                                                 className="fab fs-5 fa-instagram"/></Link>
                                         </div>
-                                        <img className="img-fluid rounded " style={{height:"500px",width:"675px"}}
+                                        <img className="img-fluid rounded" style={{height: "370px", width: "400px"}}
                                              src={ceo}
                                              alt=""/>
                                     </div>
@@ -282,7 +285,7 @@ export const FirstMenu = () => {
                                 </div>
                             </div>
 
-                            <div  className="col-lg-4 col-md-6 wow fadeInUp"
+                            <div className="col-lg-4 col-md-6 wow fadeInUp"
                                  data-wow-delay="0.3s">
                                 <div className="team-item">
                                     <div className="d-flex">
@@ -293,10 +296,12 @@ export const FirstMenu = () => {
                                                 className="bi bi-telegram fs-5"/></Link>
                                             <Link to={""} className="btn btn-square text-primary bg-white my-1" href=""><i
                                                 className="bi bi-github fs-5"/></Link>
-                                            <Link  to={"https://instagram.com/_0ybek_?igshid=MzRlODBiNWFlZA=="} className="btn btn-square text-primary bg-white my-1" href=""><i
+                                            <Link to={"https://instagram.com/_0ybek_?igshid=MzRlODBiNWFlZA=="}
+                                                  className="btn btn-square text-primary bg-white my-1" href=""><i
                                                 className="fab fs-5 fa-instagram"/></Link>
                                         </div>
-                                        <img  style={{height:"500px",width:"675px"}} className="img-fluid rounded w-100"
+                                        <img style={{height: "400px", width: "475px"}}
+                                             className="img-fluid rounded w-100"
                                              src={oybek}
                                              alt=""/>
                                     </div>
@@ -307,7 +312,7 @@ export const FirstMenu = () => {
                                 </div>
                             </div>
 
-                            <div  className="col-lg-4 col-md-6 wow fadeInUp mr-3"
+                            <div className="col-lg-4 col-md-6 wow fadeInUp mr-3"
                                  data-wow-delay="0.1s">
                                 <div className="team-item">
                                     <div className="d-flex">
@@ -316,12 +321,14 @@ export const FirstMenu = () => {
                                             <Link to={"https://t.me/dilbekk070"}
                                                   className="btn btn-square text-primary bg-white my-1"><i
                                                 className="bi bi-telegram fs-5"/></Link>
-                                            <Link to={"https://github.com/mukhtarovich-dev"} className="btn btn-square text-primary bg-white my-1" ><i
+                                            <Link to={"https://github.com/mukhtarovich-dev"}
+                                                  className="btn btn-square text-primary bg-white my-1"><i
                                                 className="bi bi-github fs-5"/></Link>
-                                            <Link to={"https://instagram.com/dilbekk070?igshid=MzRlODBiNWFlZA=="} className="btn btn-square text-primary bg-white my-1"><i
+                                            <Link to={"https://instagram.com/dilbekk070?igshid=MzRlODBiNWFlZA=="}
+                                                  className="btn btn-square text-primary bg-white my-1"><i
                                                 className="fab fs-5 fa-instagram"/></Link>
                                         </div>
-                                        <img style={{height:"500px"}} className="img-fluid rounded "
+                                        <img style={{height: "400px"}} className="img-fluid rounded "
                                              src={dilbek}
                                              alt=""/>
                                     </div>
@@ -331,7 +338,7 @@ export const FirstMenu = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div  className="col-lg-4 col-md-6 wow fadeInUp mr-3"
+                            <div className="col-lg-4 col-md-6 wow fadeInUp mr-3"
                                  data-wow-delay="0.1s">
                                 <div className="team-item">
                                     <div className="d-flex">

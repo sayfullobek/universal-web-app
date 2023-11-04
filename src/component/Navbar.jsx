@@ -27,7 +27,7 @@ export const Navbar = () => {
                     <div className="container my-5 py-5 px-lg-5">
                         <div className="row g-5 py-5">
                             <div className="col-lg-6 text-center text-lg-start">
-                                <h1 style={{fontSize:"60px"}} className="text-white mb-4 animated zoomIn">Zamonaviy kasblarni biz bilan o'rganing</h1>
+                                <h1 style={{fontSize:"50px",textAlign:"center"}} className="text-white mb-4 animated zoomIn">Zamonaviy kasblarni biz bilan o'rganing</h1>
                                 <p className="text-white pb-3 animated zoomIn">Dasturlash sohasida eng rivojlangan va talabi yuqori bo'lgan kurslardan birini tanlang. Kurs davomida portfolio to'plash, rezyume hosil qilish va ish topishingizga esa biz yordam beramiz.</p>
                                 <Link to="http://localhost:5173/contact"
                                    className="btn btn-outline-light justify-content-end py-sm-3 px-sm-5 rounded-pill animated slideInRight">Biz bilan bog'lanish</Link>

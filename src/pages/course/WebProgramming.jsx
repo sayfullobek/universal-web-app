@@ -1,5 +1,14 @@
 import {Footer} from "../../component/Footer";
 import {Link} from "react-router-dom";
+import logo from '/src/assets/img/UniversalAcademy.png'
+import bio from '/src/assets/img/360_F_278374738_ypRn0utOVnebuhmpSrDiwkzFsdqEm0aa-removebg-preview.png'
+import rasm1 from '/src/assets/img/webdev-removebg-preview.png'
+import rasm2 from '/src/assets/img/Untitled__4_-removebg-preview.png'
+import rasm3 from '/src/assets/img/Untitled__3_-removebg-preview.png'
+import rasm4 from '/src/assets/img/Untitled__1_-removebg-preview.png'
+import rasm5
+    from '/src/assets/img/pngtree-2-5d-electronic-device-laptop-vector-element-png-image_4391586-removebg-preview.png'
+
 
 export const WebProgramming = () => {
     return (
@@ -7,7 +16,7 @@ export const WebProgramming = () => {
             <div className="container-xxl position-relative p-0">
                 <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                     <a href="" className="navbar-brand p-0">
-                        <h1 className="m-0"><img src="src/assets/img/UniversalAcademy.png" alt="not"/>Universal<span
+                        <h1 className="m-0"><img src={logo} alt="not"/>Universal<span
                             className="fs-5"/>
                         </h1>
                     </a>
@@ -29,7 +38,7 @@ export const WebProgramming = () => {
                     <div className="container my-5 py-5 px-lg-5">
                         <div className="row g-5 py-5">
                             <div className="col-lg-6 text-center text-lg-start">
-                                <h1 style={{fontSize: "50px"}}
+                                <h1 style={{fontSize: "40px"}}
                                     className="text-white mb-4 animated zoomIn">WEB <br/> DASTURLASH</h1>
                                 <Link to="http://localhost:5173/contact"
                                       className="btn btn-outline-light justify-content-end py-sm-3 px-sm-5 rounded-pill animated slideInRight">Biz
@@ -37,7 +46,7 @@ export const WebProgramming = () => {
                             </div>
                             <div className="col-lg-6 text-center text-lg-start">
                                 <img className="img-fluid" style={{width: "650px", marginTop: "-50px"}}
-                                     src="src/assets/img/360_F_278374738_ypRn0utOVnebuhmpSrDiwkzFsdqEm0aa-removebg-preview.png  "
+                                     src={bio}
                                      alt="not"/>
                             </div>
                         </div>
@@ -52,7 +61,7 @@ export const WebProgramming = () => {
                             <div className="col-lg-6 wow fadeInUp">
                                 <div className="section-title position-relative mb-4 pb-2">
                                     {/*<h6 className="position-relative text-primary ps-4">Biz haqimizda</h6>*/}
-                                    <h1 className="mt-2" style={{fontSize: "50px"}}>KURSIMIZ KIMLARGA<br/> TO’G’RI
+                                    <h1 className="mt-2" style={{fontSize: "40px"}}>KURSIMIZ KIMLARGA<br/> TO’G’RI
                                         KELADI</h1>
                                 </div>
                                 <p className="mb-4 fs-4">Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan
@@ -70,7 +79,7 @@ export const WebProgramming = () => {
                             </div>
                             <div className="col-lg-6">
                                 <img className="img-fluid wow"
-                                     src="src/assets/img/webdev-removebg-preview.png" alt={"not"}/>
+                                     src={rasm1} alt={"not"}/>
                             </div>
                         </div>
                     </div>
@@ -88,48 +97,48 @@ export const WebProgramming = () => {
                                     <div className="col-lg-4 col-md-4 wow zoomIn">
                                         <div
                                             className="d-flex flex-column justify-content-center text-center ">
-                                            <li className={"fs-3 text-primary"}>Java</li>
+                                            <p className={"fs-3 text-primary"}>Java</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-4 wow zoomIn">
                                         <div
                                             className="d-flex flex-column justify-content-center text-center rounded">
-                                            <li className={"fs-3 text-primary"}>Python</li>
+                                            <p className={"fs-3 text-primary"}>Python</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-4 wow zoomIn">
                                         <div
                                             className="d-flex flex-column justify-content-center text-center rounded">
-                                            <li className={"fs-3 text-primary"}>Node JS</li>
+                                            <p className={"fs-3 text-primary"}>Node JS</p>
                                         </div>
                                     </div>
 
-                                </div>
-                                <div className="row my-5">
                                     <div className="col-lg-3 col-md-4 wow zoomIn">
                                         <div
                                             className="d-flex flex-column justify-content-center text-center ">
-                                            <li className={"fs-3 text-primary"}>HTML</li>
+                                            <p className={"fs-3 text-primary"}>HTML</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-3 col-md-4 wow zoomIn">
                                         <div
                                             className="d-flex flex-column justify-content-center text-center rounded">
-                                            <li className={"fs-3 text-primary"}>CSS</li>
+                                            <p className={"fs-3 text-primary"}>CSS</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-3 col-md-4 wow zoomIn">
                                         <div
                                             className="d-flex flex-column justify-content-center text-center rounded">
-                                            <li className={"fs-3 text-primary"}>JS</li>
+                                            <p className={"fs-3 text-primary"}>Java Script</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-3 col-md-4 wow zoomIn">
                                         <div
                                             className="d-flex flex-column justify-content-center text-center rounded">
-                                            <li className={"fs-3 text-primary"}>React</li>
+                                            <p className={"fs-3 text-primary"}>React Js</p>
                                         </div>
                                     </div>
+                                </div>
+                                <div className="row my-5">
                                 </div>
                             </div>
                         </div>
@@ -149,7 +158,7 @@ export const WebProgramming = () => {
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
                                     <img style={{width: "100px", height: "100px", marginLeft: "75px"}}
-                                         src="src/assets/img/Untitled__4_-removebg-preview.png" alt=""/>
+                                         src={rasm2} alt=""/>
                                     <h5 className="mb-3">Video darslarni ko’rib borish</h5>
                                     <p>Har kuni dars videolari yozib olinadi. Siz dars videolarini mustaqil
                                         ko'rishingiz
@@ -160,7 +169,7 @@ export const WebProgramming = () => {
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
                                     <img style={{width: "100px", height: "100px", marginLeft: "75px"}}
-                                         src="src/assets/img/Untitled__3_-removebg-preview.png" alt=""/>
+                                         src={rasm3} alt=""/>
                                     <h5 className="mb-3">Amaliy
                                         mashqlar</h5>
                                     <p>Har bir mavzuga oid amaliy mashqlar beriladi va bu mashqlarni talaba mustaqil
@@ -172,7 +181,7 @@ export const WebProgramming = () => {
                                 <div
                                     className="service-item d-flex flex-column justify-content-center text-center rounded">
                                     <img style={{width: "100px", height: "100px", marginLeft: "75px"}}
-                                         src="src/assets/img/Untitled__1_-removebg-preview.png" alt=""/>
+                                         src={rasm4} alt=""/>
                                     <h5 className="mb-3">Loyihalarda ishlash</h5>
                                     <p>Uzingizning yunalishingizga mos loyihalarda ishlash imkoniyati</p>
 
@@ -209,7 +218,7 @@ export const WebProgramming = () => {
                             <div className="col-lg-3 col-md-3 col-sm-6 text-center">
                                 <div className="contact__widget">
                                     <img style={{width: '140px', marginTop: '-20px'}}
-                                         src="src/assets/img/pngtree-2-5d-electronic-device-laptop-vector-element-png-image_4391586-removebg-preview.png"
+                                         src={rasm5}
                                          alt=""/>
                                 </div>
                             </div>

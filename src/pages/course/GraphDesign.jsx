@@ -1,5 +1,12 @@
 import {Footer} from "../../component/Footer";
 import {Link} from "react-router-dom";
+import logo from '/src/assets/img/UniversalAcademy.png'
+import bio from '/src/assets/img/graphic-designer-job-description-removebg-preview.png'
+import vid from '/src/assets/img/Untitled__4_-removebg-preview.png'
+import vid2 from '/src/assets/img/Untitled__3_-removebg-preview.png'
+import vid3 from '/src/assets/img/Untitled__1_-removebg-preview.png'
+import dd from '/src/assets/img/images-removebg-preview.png'
+import ff from '/src/assets/img/Illustrator-Vector-Illustration-1-removebg-preview.png'
 
 export const GraphDesign = () => {
     return (
@@ -8,7 +15,7 @@ export const GraphDesign = () => {
                 <div className="container-xxl position-relative p-0">
                     <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                         <a href="" className="navbar-brand p-0">
-                            <h1 className="m-0"><img src="src/assets/img/UniversalAcademy.png" alt="not"/>Universal<span
+                            <h1 className="m-0"><img src={logo} alt="not"/>Universal<span
                                 className="fs-5"/>
                             </h1>
                         </a>
@@ -37,8 +44,8 @@ export const GraphDesign = () => {
                                         bilan bog'lanish</Link>
                                 </div>
                                 <div className="col-lg-6 text-center text-lg-start">
-                                    <img className="" style={{width: "540px", marginTop: "-30px", marginLeft: "0px"}}
-                                         src="src/assets/img/graphic-designer-job-description-removebg-preview.png"
+                                    <img className="" style={{width: "400px", marginTop: "-30px", marginLeft: "-50px"}}
+                                         src={bio}
                                          alt="not"/>
                                 </div>
                             </div>
@@ -52,7 +59,7 @@ export const GraphDesign = () => {
                             <div className="row g-5">
                                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                                     <div className="section-title position-relative mb-4 pb-2">
-0                                        <h1 className="mt-2" style={{fontSize: "50px"}}>KURSIMIZ KIMLARGA<br/> TO’G’RI
+0                                        <h1 className="mt-2" style={{fontSize: "40px"}}>KURSIMIZ KIMLARGA<br/> TO’G’RI
                                             KELADI</h1>
                                     </div>
                                     <p className="mb-4 fs-5">Grafik dizayn Adobe Photoshop , Adobe Illustrator ni o'rganmoqchi bo'lgan barcha yoshlar uchun</p>
@@ -71,7 +78,7 @@ export const GraphDesign = () => {
                                 </div>
                                 <div className="col-lg-6">
                                     <img className="img-fluid wow zoomIn"
-                                         src="src/assets/img/Illustrator-Vector-Illustration-1-removebg-preview.png"
+                                         src={ff}
                                          alt={"not"}/>
                                 </div>
                             </div>
@@ -83,7 +90,7 @@ export const GraphDesign = () => {
                             <div className="row g-5">
                                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                                     <div className="section-title position-relative mb-4 pb-2">
-                                        <h1 className="mt-2" style={{fontSize: "50px"}}>NIMALARNI
+                                        <h1 className="mt-2" style={{fontSize: "40px"}}>NIMALARNI
                                             O’RGANASIZ</h1>
                                     </div>
                                     <div className="row my-5">
@@ -111,8 +118,8 @@ export const GraphDesign = () => {
                                 <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                                     <div
                                         className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                        <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
-                                             src="src/assets/img/Untitled__4_-removebg-preview.png" alt=""/>
+                                        <img style={{width: "150px", height: "150px", marginLeft: "50px"}}
+                                             src={vid2} alt=""/>
                                         <h5 className="mb-3">Amaliy
                                             mashqlar</h5>
                                         <p>Har bir mavzuga oid amaliy mashqlar beriladi va bu mashqlarni talaba mustaqil
@@ -123,8 +130,8 @@ export const GraphDesign = () => {
                                 <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                                     <div
                                         className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                        <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
-                                             src="src/assets/img/Untitled__1_-removebg-preview.png" alt=""/>
+                                        <img style={{width: "150px", height: "150px", marginLeft: "50px"}}
+                                             src={vid} alt=""/>
                                         <h5 className="mb-3">Yangiliklar</h5>
                                         <p>Har kuni yangi narsalarni kashf eting <br/> Jamoamiz bilan birga ishlash</p>
 
@@ -133,8 +140,8 @@ export const GraphDesign = () => {
                                 <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                                     <div
                                         className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                        <img style={{width: "150px", height: "150px", marginLeft: "100px"}}
-                                             src="src/assets/img/Untitled__1_-removebg-preview.png" alt=""/>
+                                        <img style={{width: "150px", height: "150px", marginLeft: "50px"}}
+                                             src={vid3} alt=""/>
                                         <h5 className="mb-3">Loyihalarda ishlash</h5>
                                         <p>Uzingizning yunalishingizga mos loyihalarda ishlash imkoniyati</p>
 
@@ -171,7 +178,7 @@ export const GraphDesign = () => {
                                 <div className="col-lg-3 col-md-3 col-sm-6 text-center">
                                     <div className="contact__widget">
                                         <img style={{width: '100px', marginTop: '-20px'}}
-                                             src="src/assets/img/images-removebg-preview.png"
+                                             src={dd}
                                              alt=""/>
                                     </div>
                                 </div>
