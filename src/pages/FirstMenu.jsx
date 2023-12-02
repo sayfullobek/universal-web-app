@@ -156,7 +156,7 @@ export const FirstMenu = () => {
                         <div className="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
                         </div>
 
-                        <Link to={"http://localhost:5173/learnPc"} className="row g-4 portfolio-container">
+                        <Link to={"/learnPc"} className="row g-4 portfolio-container">
                             <div className="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.1s">
                                 <div className="position-relative rounded overflow-hidden">
                                     <img className="img-fluid w-100" style={{width: "383px", height: "283px"}}
@@ -171,7 +171,7 @@ export const FirstMenu = () => {
                                 </div>
                             </div>
 
-                            <Link to={"http://localhost:5173/webProgramming"}
+                            <Link to={"/webProgramming"}
                                   className="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.3s">
                                 <div className="position-relative rounded overflow-hidden">
                                     <img className="img-fluid w-100" style={{width: "383px", height: "283px"}}
@@ -179,7 +179,7 @@ export const FirstMenu = () => {
                                          alt=""/>
                                     <div className="portfolio-overlay">
                                         <div className="mt-auto">
-                                            <Link to={"http://localhost:5173/webProgramming"}
+                                            <Link to={"/webProgramming"}
                                                   style={{fontSize: "40px"}} className="h5 d-block text-white mt-1 mb-0"
                                             >Web dasturlash</Link>
                                         </div>
@@ -187,7 +187,7 @@ export const FirstMenu = () => {
                                 </div>
                             </Link>
 
-                            <Link to={"http://localhost:5173/archDesign"}
+                            <Link to={"/archDesign"}
                                   className="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.6s">
                                 <div className="position-relative rounded overflow-hidden">
                                     <img className="img-fluid w-100" style={{width: "383px", height: "283px"}}
@@ -201,7 +201,7 @@ export const FirstMenu = () => {
                                     </div>
                                 </div>
                             </Link>
-                            <Link to={"http://localhost:5173/smm&mobilograph"}
+                            <Link to={"/smm&mobilograph"}
                                   className="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.1s">
                                 <div className="position-relative rounded overflow-hidden">
                                     <img className="img-fluid w-100" style={{width: "383px", height: "283px"}}
@@ -215,7 +215,7 @@ export const FirstMenu = () => {
                                     </div>
                                 </div>
                             </Link>
-                            <Link to={"http://localhost:5173/3dmac&autocad"}
+                            <Link to={"/3dmac&autocad"}
                                   className="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.3s">
                                 <div className="position-relative rounded overflow-hidden">
                                     <img className="img-fluid w-100" style={{width: "383px", height: "283px"}}
@@ -230,7 +230,7 @@ export const FirstMenu = () => {
                                 </div>
                             </Link>
 
-                            <Link to={"http://localhost:5173/graphDesign"}
+                            <Link to={"/graphDesign"}
                                   className="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.6s">
                                 <div className="position-relative rounded overflow-hidden">
                                     <img className="img-fluid w-100" style={{width: "383px", height: "283px"}}

@@ -12,7 +12,7 @@ export const NotFound = () => {
                             <h1 className="mb-4">Sahifa topilmadi</h1>
                             <p className="mb-4">Kechirasiz, siz qidirgan sahifa bizning veb-saytimizda mavjud emas!
                                 Ehtimol, bizning bosh sahifamizga o'ting yoki qidiruvdan foydalanmoqchimisiz?</p>
-                            <Link to={"http://localhost:5173/"} className="btn btn-primary rounded-pill py-3 px-5">Bosh sahifa</Link>
+                            <Link to={"/"} className="btn btn-primary rounded-pill py-3 px-5">Bosh sahifa</Link>
                         </div>
                     </div>
                 </div>

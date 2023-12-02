@@ -18,8 +18,8 @@ export const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <div className="navbar-nav ms-auto py-0">
                             <a href="" className="nav-item nav-link active">Bosh sahifa</a>
-                            <Link to="http://localhost:5173/course" className="nav-item nav-link">Kurslar</Link>
-                            <Link to="http://localhost:5173/contact" className="nav-item nav-link">Biz bilan
+                            <Link to="/course" className="nav-item nav-link">Kurslar</Link>
+                            <Link to="/contact" className="nav-item nav-link">Biz bilan
                                 bo'glanish</Link>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ export const Navbar = () => {
                                 <p className="text-white pb-3 animated zoomIn">Dasturlash sohasida eng rivojlangan va
                                     talabi yuqori bo'lgan kurslardan birini tanlang. Kurs davomida portfolio to'plash,
                                     rezyume hosil qilish va ish topishingizga esa biz yordam beramiz.</p>
-                                <Link to="http://localhost:5173/contact"
+                                <Link to="/contact"
                                       className="btn btn-outline-light justify-content-end py-sm-3 px-sm-5 rounded-pill animated slideInRight">Biz
                                     bilan bog'lanish</Link>
                             </div>

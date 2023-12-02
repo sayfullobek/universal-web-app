@@ -19,9 +19,9 @@ export const Contact = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <div className="navbar-nav ms-auto py-0">
-                            <Link to={"http://localhost:5173/"} className="nav-item nav-link">Bosh sahifa</Link>
-                            <Link to="http://localhost:5173/course" className="nav-item nav-link">Kurslar</Link>
-                            <Link to="http://localhost:5173/contact" className="nav-item nav-link active  ">Biz bilan
+                            <Link to={"/"} className="nav-item nav-link">Bosh sahifa</Link>
+                            <Link to="/course" className="nav-item nav-link">Kurslar</Link>
+                            <Link to="/contact" className="nav-item nav-link active  ">Biz bilan
                                 bog'lanish</Link>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ export const Contact = () => {
                                 <p className="text-white pb-3 animated zoomIn">Bizni ijtimoiy tarmoqlarda kuzatib boring
                                     Biz sizga eng yaxshizini tavsia etamiz Muammoga duch kelsangiz qo'llab quvvatlash
                                     jamoamizga murojat qiling </p>
-                                <Link style={{width: "200px"}} to="http://localhost:5173/"
+                                <Link style={{width: "200px"}} to="/"
                                       className="btn btn-outline-light justify-content-end py-sm-3 px-sm-5 rounded-pill animated slideInRight">Bosh
                                     sahifa</Link>
                             </div>
@@ -122,7 +122,7 @@ export const Contact = () => {
                         <div className="col-md-6 col-lg-3">
                             <h5 className="text-white mb-4">Ommabop havola</h5>
                             <a className="btn btn-link" href="">Biz haqimiza</a>
-                            <Link to={"http://localhost:5173/contact"} className="btn btn-link">Biz bilan
+                            <Link to={"/contact"} className="btn btn-link">Biz bilan
                                 bog'lanish</Link>
                         </div>
                     </div>

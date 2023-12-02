@@ -16,7 +16,7 @@ export const Footer = () => {
                         <div className="col-md-6 col-lg-3">
                             <h5 className="text-white mb-4">Ommabop havola</h5>
                             <a className="btn btn-link" href="">Biz haqimiza</a>
-                            <Link to={"http://localhost:5173/contact"} className="btn btn-link" href="">Biz bilan
+                            <Link to={"/contact"} className="btn btn-link" href="">Biz bilan
                                 bog'lanish</Link>
                         </div>
                     </div>
